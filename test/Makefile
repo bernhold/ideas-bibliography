@@ -5,7 +5,13 @@ SOURCES = $(MAIN).tex $(wildcard *.tex ) \
 
 $(MAIN).pdf: $(SOURCES) 
 	pdflatex $(MAIN)
-	bibtex $(MAIN)
+	bibtex $(MAIN)1
+	bibtex $(MAIN)2
+	bibtex $(MAIN)3
+	bibtex $(MAIN)4
+	bibtex $(MAIN)5
+	bibtex $(MAIN)6
+#	bibtex $(MAIN)7
 	pdflatex $(MAIN)
 	pdflatex $(MAIN)
 

@@ -1,0 +1,186 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% IDEAS project peer reviewed publications
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% EXPECTED ENTRY TYPES INCLUDE:
+%    article, book, inbook, incollection, inproceedings, proceedings
+% LESS LIKELY ENTRY TYPES INCLUDE: mastersthesis, phdthesis
+% Other entry tpye are usually not used for peer reviewed publications
+%                 and should generally be listed elsewhere.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ADDITIONAL NOTES
+% DOIs should be bare DOIs only, not URLs
+% If you have a DOI, provide the DOI
+% Use the URL field only if you do NOT have a DOI
+% Contents of the URL field must use the \url{} macro
+% Use notes field to indicate papers that are working their way
+%    through the peer review process. We recommend using the
+%    terminology adopted by biblatex for the pubstate field:
+%    in preparation: manuscript being prepared
+%    submitted: submitted to journal or conference and under review
+%    forthcoming: accepted by journal or conference
+%    in press: author has made final, fully revised and copyedited
+%       submission and it is now in the hands of the hand of the publisher
+%    prepublished: manuscript has been published in a preliminary
+%       form or location, such as an online version in advance of a
+%       print publication (where final volume, issue, and page
+%       information may not yet be available. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@string{ProcediaComputerScience = "Procedia Comput. Sci."}
+@article{TDScheibe_etal_ICCS_2015,
+  author  = {T. D. Scheibe and X. Yang and X. Chen and G. Hammond},
+  title   = {A Hybrid Multiscale Framework for Subsurface Flow 
+             and Transport Simulations},
+  journal = ProcediaComputerScience,
+  volume  = 51,
+  number  = 0,
+  pages   = {1098--1107},
+  year    = 2015,
+  note    = "International Conference on Computational Science, 
+            {(ICCS)} 2015 Computational Science at the Gates of Nature ",
+  doi     = "http://dx.doi.org/10.1016/j.procs.2015.05.276",
+  url     = "http://www.sciencedirect.com/science/article/pii/S1877050915010844"
+}
+
+@string{EnvironmentalModellingANDSoftware = {Environmental Modelling \& Software}}
+@Article{ETCoon_JDMoulton_SLPainter_2016a,
+  author  = {Ethan T. Coon and J. David Moulton and Scott L. Painter},
+  title   = {Managing Complexity in Simulations of Land Surface and Near-surface Processes},
+  journal = EnvironmentalModellingANDSoftware,
+  volume  = 78,
+  pages   = {134--149},
+  year    = 2016,
+  doi     = {http://dx.doi.org/10.1016/j.envsoft.2015.12.017}
+}
+
+@Article{RMMaxwell_etal_2016a,
+  author  = {R. M. Maxwell and L. E. Condon and S. J. Kollet and K. Maher 
+             and R. Haggerty and M. M. Forrester},
+  title   = {The imprint of climate and geology on the residence times of groundwater},
+  journal = {Geophysical Research Letters},
+  volume  = 43,
+  number  = 2,
+  pages   = {701--708},
+  year    = 2016,
+  doi     = {http://dx.doi.org/10.1002/2015GL066916}
+}
+
+@Article{RMMaxwell_LECondon_2015a,
+  author  = {R. M. Maxwell and L. E. Condon},
+  title   = {Evaluating the relationship between topography and
+             groundwater using outputs from a continental scale
+             integrated hydrology model},
+  journal = {Water Resources Research},
+  volume  = 51,
+  year    = 2015,
+  doi     = {http://dx.doi.org/10.1002/2014WR016774}
+}
+
+@Article{LECondon_ASHering_RMMaxwell_2015a,
+  author  = {L. E. Condon and A. S. Hering and R. M. Maxwell},
+  title   = {Quantitative assessment of groundwater controls across
+             major US river basins using a multi-model regression
+             algorithm.},
+  journal = {Advances in Water Resources},
+  volume  = 82,
+  pages   = {106--123},
+  year    = 2015,
+  doi     = {http://dx.doi.org/10.1016/j.advwatres.2015.04.008}
+}
+
+@inproceedings{WangEtAl-SEHPCS,
+   author    = "Dali Wang and Wei Wu and Tommy Janjusic and Yang Xu and Colleen Iversen and Peter Thornton and Misha Krassovisk",
+   title     = "Scientific Functional Testing Platform for Environmental Models: An Application to the {Community Land Model}", 
+   booktitle = "International Workshop on Software Engineering for High Performance Computing in Science, 37th International Conference on Software Engineering, May 16-24, 2015, Florence, Italy",
+  doi        = "10.1109/SE4HPCS.2015.10",
+  year       = 2015
+}
+
+@misc{MahadevanEtAl-multiscale-iccs2016,
+  author = "V. Mahadevan and M. Thomas and S. Colby",
+  title = "A Review of Multiscale Coupling Tools to Improve Scientific Productivity",
+  note = "Abstract accepted for presentation at the 13$^{th}$ International Workshop on Multiscale Modelling and Simulation, in conjunction with the International Conference on Computational Science (ICCS), June 6-8, 2016, San Diego, CA",
+}
+
+% chapters in upcoming book, SE for Science
+
+@misc{BartlettEtAl-testing-chapter2016,
+  author = "R. Bartlett and A. Dubey and S. Li and J. D. Moulton and J. Willenbring and U. Yang",
+  title = "The Role of Automated Testing in Scientific Software: Impacts on Research Credibility, Development Productivity, Maturation, and Sustainability", 
+  note = "chapter accepted for publication in the upcoming book on {\em Software Engineering for Science}, editors J. Carver, H. C. Hong, and G. Thiruvathukal",
+  year = 2016
+}
+
+@misc{DubeyEtAl-multiphysics-chapter2016,
+  author = "A. Dubey and K. Antypas and E. Coon and K. Riley", 
+  title = "Software Process for Multicomponent Multiphysics Codes", 
+  note = "chapter accepted for publication in the upcoming book on {\em Software Engineering for Science}, editors J. Carver, H. C. Hong, and G. Thiruvathukal",
+  year = 2016
+}
+
+@misc{BalayEtAl-mixed-language-chapter2016,
+  author = "S. Balay and J. Brown and M. Knepley and L. C. McInnes and B. Smith",
+  title = "Providing Mixed-Language and Legacy Support within a Library: Experiences of Developing {PETSc}",
+  note = "chapter accepted for publication in the upcoming book on {\em Software Engineering for Science}, editors J. Carver, H. C. Hong, and G. Thiruvathukal",
+  year = 2016
+}
+  
+@misc{WangEtAl-testing-chapter2016,
+  author = "Dali Wang and Zhou Yao and Frank Winkler",
+  title = "Building a Function Testing Platform for Complex Scientific
+                  Computing Code",
+  note = "chapter accepted for publication in the upcoming book on {\em Software Engineering for Science}, editors J. Carver, H. C. Hong, and G. Thiruvathukal",
+  year = 2016
+}
+  
+@inproceedings{DubeyGraves2016,
+  author = "A. Dubey and D. Graves", 
+  title = "A Design Proposal for a Next Generation Scientific Software Framework", 
+  booktitle = "Proceedings of HeteroPar'2015 Workshop, Vienna, Austria",
+  month = "August",
+  year = "2015"
+}
+
+
+@inproceedings{gamblin+:sc15,
+Acceptancerate = {22\%},
+Address = {Austin, Texas},
+Author = {Todd Gamblin and Matthew P. LeGendre and Michael R. Collette and Gregory L. Lee and Adam Moody and Bronis R. de Supinski and W. Scott Futral},
+Booktitle = {Supercomputing 2015 (SC'15)},
+Date-Added = {2015-06-28 22:46:34 +0000},
+Date-Modified = {2015-10-12 16:12:11 +0000},
+Month = {November 15-20},
+Note = {LLNL-CONF-669890},
+Title = {{The Spack Package Manager: Bringing order to HPC software chaos}},
+Url = {http://tgamblin.github.io/pubs/spack-sc15.pdf},
+Year = {2015}}
+
+
+@InProceedings{Yao:2016:SDI,
+  author = "Zhuo Yao and Yulu Jia and Dali Wang and Chad Steed and Scott Atchley",
+  title = "In Situ Data Infrastructure for Scientific Unit Testing Platform",
+  booktitle = {Proceedings of the 13$^{th}$ International Workshop
+                  on Multiscale Modelling and Simulation, in
+                  conjunction with the International Conference on
+                  Computational Science (ICCS), June 6-8, 2016, San
+                  Diego, CA},
+  year = 	 2016,
+  note = 	 {in press}}
+
+@misc{MahadevanEtAl-coupling-survey2016,
+  author = "V. Mahadevan and S. Colby and M. Thomas",
+  title = "A Review of Multiscale Coupling Tools to Improve Scientific Productivity",
+  note = "Document in preparation"
+}
+
+% Published prior to start of funding for Wang in IDEAS, so not listed in progress report
+@article{WangEtAl-IJACSA14,
+  author = "Dali Wang and Wei Wu and Frank Winkler and Wei Ding and Oscar Hernandez", 
+  title = "A Feasibility Study on Porting the Community Land Model onto Accelerators using {OpenACC}", 
+  journal = "International Journal of Advanced Computer Science and Applications (IJACSA)", 
+  volume = 5,
+  number = 12, 
+  year = 2014,
+  doi = "http://dx.doi.org/10.14569/IJACSA.2014.051203"
+}
+

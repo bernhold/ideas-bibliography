@@ -3,12 +3,50 @@
 \usepackage{url}
 \usepackage[T1]{fontenc}
 \usepackage{mathptmx} % Times font
+\usepackage[sectcntreset]{bibtopic}
 
 \begin{document}
-
-\nocite{*}
-
 \bibliographystyle{plain}
-\bibliography{../bib/ideas}
+
+%% \begin{btSect}{../bib/ideas}
+%%   \section{Unified Bibliography File}
+%%   \btPrintAll
+%% \end{btSect}
+
+\newpage
+\begin{btSect}{../bib/ideas-publications}
+  \section{Peer-Reviewed Publications}
+  \btPrintAll
+\end{btSect}
+
+\newpage
+\begin{btSect}{../bib/ideas-presentations}
+  \section{Presentations}
+  \btPrintAll
+\end{btSect}
+
+\newpage
+\begin{btSect}{../bib/ideas-other}
+  \section{Other Artifacts}
+  \btPrintAll
+\end{btSect}
+
+\newpage
+\begin{btSect}{../bib/ideas-howto}
+  \section{Methodologies Artifacts}
+  \btPrintAll
+\end{btSect}
+
+\newpage
+\begin{btSect}{../bib/ideas-training}
+  \section{Trainings}
+  \btPrintAll
+\end{btSect}
+
+\newpage
+\begin{btSect}{../bib/ideas-events}
+  \section{Events Organized}
+  \btPrintAll
+\end{btSect}
 
 \end{document}
