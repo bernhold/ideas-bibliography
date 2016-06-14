@@ -1,7 +1,7 @@
 MAIN=test-bib
 
 SOURCES = $(MAIN).tex $(wildcard *.tex ) \
-	$(wildcard *.bib)
+	$(wildcard ../bib/*.bib)
 
 $(MAIN).pdf: $(SOURCES) 
 	pdflatex $(MAIN)
